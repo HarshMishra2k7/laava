@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120516">
+  <title>For My Bby ❤️ | Lavanya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       PHOTO SETUP:
+       Put your 20 photos inside the "images" folder and rename them:
+       bby01.jpg, bby02.jpg, ... bby20.jpg
+
+       If your photos have another name, change the "src" values below.
+       Example:
+       src="images/my-photo.jpg"
+
+       FOR GITHUB:
+       If the website is hosted on GitHub Pages, keep the same folder
+       structure. The paths "images/bby01.jpg" etc. will work automatically.
+       ============================================================ -->
+
+  <!-- LOADING / LOVE INTRO -->
+  <section id="loader" class="loader">
+    <div class="loader-glow"></div>
+    <div class="loader-card">
+      <div class="loader-photo-wrap">
+        <!-- CHANGE THIS PHOTO if you want a special loading-screen photo -->
+        <img src="images/bby01.jpg" alt="My Bby" class="loader-photo"
+             onerror="this.style.display='none'; document.querySelector('.loader-fallback').style.display='grid';">
+        
+      </div>
+      <div class="mini-heart">♥</div>
+      <p class="loader-small">A little surprise for</p>
+      <h1>I Love You, Bby ❤️</h1>
+      <div class="loading-line"><span></span></div>
+      <p id="loadingText">Preparing something special...</p>
+    </div>
+    <div class="loader-particles" id="loaderParticles"></div>
+  </section>
+
+  <!-- MAIN WEBSITE -->
+  <main id="mainContent" class="hidden">
+
+    <div class="cursor-heart" id="cursorHeart">♥</div>
+    <div class="floating-hearts" id="floatingHearts"></div>
+    <div class="sparkles" id="sparkles"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-content">
+        <p class="eyebrow">FOR THE MOST SPECIAL GIRL ✨</p>
+        <h1 class="hero-title">
+          Hey, <span>Lavanya</span> ❤️
+        </h1>
+        <p class="hero-subtitle">
+          Maine internet ka ye chhota sa kona sirf tumhare liye banaya hai, bby. ❤️
+        </p>
+
+        <div class="love-badge">
+          <span>♡</span>  memories hai mere pass ap ki • 1 beautiful girl • infinite love <span>♡</span>
+        </div>
+
+        <button class="start-btn" id="startBtn">
+          <span>Open Your Surprise</span>
+          <b>💗</b>
+        </button>
+
+        <div class="scroll-hint">scroll slowly, bby ↓</div>
+      </div>
+    </section>
+
+    <!-- LOVE LETTER -->
+    <section class="letter-section reveal">
+      <div class="section-tag">A LITTLE NOTE 💌</div>
+      <h2>For my <span>bby</span></h2>
+      <div class="letter-card">
+        <div class="letter-top">To my favourite person ❤️</div>
+        <p id="typedLetter"></p>
+        <div class="signature">— Yours, always 🫶</div>
+        <div class="letter-stamp">LOVE<br>YOU</div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section class="gallery-section reveal">
+      <div class="section-tag">OUR LITTLE UNIVERSE 📸</div>
+      <h2>20 reasons I can’t stop <span>smiling</span></h2>
+      <p class="section-sub">Every picture has a memory. Every memory has you. And every you has my heart.</p>
+
+      <div class="gallery" id="gallery">
+        <!-- 20 PHOTO CARDS — replace image paths only if your filenames differ -->
+        <div class="photo-card p1"><img src="images/bby01.jpg" alt="Memory 1"><span>my favourite smile ❤️</span></div>
+        <div class="photo-card p2"><img src="images/bby02.jpg" alt="Memory 2"><span>pretty, as always ✨</span></div>
+        <div class="photo-card p3"><img src="images/bby03.jpg" alt="Memory 3"><span>this one lives rent free in my heart 💗</span></div>
+        <div class="photo-card p4"><img src="images/bby04.jpg" alt="Memory 4"><span>you + this moment = perfect</span></div>
+        <div class="photo-card p5"><img src="images/bby05.jpg" alt="Memory 5"><span>my beautiful bby 🌸</span></div>
+        <div class="photo-card p6"><img src="images/bby06.jpg" alt="Memory 6"><span>one of my favourite memories</span></div>
+        <div class="photo-card p7"><img src="images/bby07.jpg" alt="Memory 7"><span>how are you even this cute? 🥹</span></div>
+        <div class="photo-card p8"><img src="images/bby08.jpg" alt="Memory 8"><span>forever a favourite</span></div>
+        <div class="photo-card p9"><img src="images/bby09.jpg" alt="Memory 9"><span>my happy place 💕</span></div>
+        <div class="photo-card p10"><img src="images/bby10.jpg" alt="Memory 10"><span>just you being you ✨</span></div>
+        <div class="photo-card p11"><img src="images/bby11.jpg" alt="Memory 11"><span>saving this one forever</span></div>
+        <div class="photo-card p12"><img src="images/bby12.jpg" alt="Memory 12"><span>you make everything better</span></div>
+        <div class="photo-card p13"><img src="images/bby13.jpg" alt="Memory 13"><span>cutest human alert 🚨</span></div>
+        <div class="photo-card p14"><img src="images/bby14.jpg" alt="Memory 14"><span>my heart chose you ❤️</span></div>
+        <div class="photo-card p15"><img src="images/bby15.jpg" alt="Memory 15"><span>this smile >>> everything</span></div>
+        <div class="photo-card p16"><img src="images/bby16.jpg" alt="Memory 16"><span>another little piece of us</span></div>
+        <div class="photo-card p17"><img src="images/bby17.jpg" alt="Memory 17"><span>my forever favourite girl</span></div>
+        <div class="photo-card p18"><img src="images/bby18.jpg" alt="Memory 18"><span>beautiful inside & out 🌷</span></div>
+        <div class="photo-card p19"><img src="images/bby19.jpg" alt="Memory 19"><span>one more reason to love you</span></div>
+        <div class="photo-card p20"><img src="images/bby20.jpg" alt="Memory 20"><span>and I’d choose you again ❤️</span></div>
+      </div>
+    </section>
+
+    <!-- LOVE METER -->
+    <section class="meter-section reveal">
+      <div class="section-tag">IMPORTANT INFORMATION 🚨</div>
+      <h2>How much do I <span>love you?</span></h2>
+      <div class="meter-card">
+        <div class="meter-number" id="loveNumber">0%</div>
+        <div class="meter-track"><div class="meter-fill" id="meterFill"></div></div>
+        <p id="meterText">Calculating...</p>
+      </div>
+    </section>
+
+    <!-- REASONS -->
+    <section class="reasons-section reveal">
+      <div class="section-tag">JUST SO YOU KNOW 💗</div>
+      <h2>Things I <span>love</span> about you</h2>
+      <div class="reasons-grid">
+        <div class="reason"><b>01</b><span>That smile that can fix my worst day.</span></div>
+        <div class="reason"><b>02</b><span>The way you make ordinary moments feel special.</span></div>
+        <div class="reason"><b>03</b><span>Your little habits that somehow became my favourites.</span></div>
+        <div class="reason"><b>04</b><span>The person I become when I’m with you.</span></div>
+        <div class="reason"><b>05</b><span>Your beautiful heart. Truly.</span></div>
+        <div class="reason"><b>06</b><span>And honestly… just everything about you. ❤️</span></div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE HEART -->
+    <section class="interactive reveal">
+      <div class="section-tag">ONE LAST THING 👀</div>
+      <h2>Tap the heart, bby</h2>
+      <p>Keep tapping. I have a little surprise hidden inside.</p>
+      <button class="big-heart" id="bigHeart">❤</button>
+      <div class="heart-count"><span id="heartCount">0</span> hearts sent to you</div>
+    </section>
+
+    <!-- FINAL -->
+    <section class="final-section" id="finalSection">
+      <div class="final-stars"></div>
+      <div class="final-content">
+        <div class="final-crown">👑</div>
+        <p class="final-small">TODAY IS ALL ABOUT YOU</p>
+        <h2>Happy Birthday</h2>
+        <h1>Lavanya ❤️</h1>
+        <p class="final-message">
+          Tumhari smile hamesha itni hi pyari rahe, tumhara dil hamesha itna hi khoobsurat rahe,
+          aur tumhari har khushi mein mujhe tumhare saath rehne ka mauka mile. ❤️
+        </p>
+        <div class="final-love">I LOVE YOU, BBY ❤️</div>
+        <button class="replay-btn" id="replayBtn">↻ Relive the surprise</button>
+      </div>
+    </section>
+
+    <footer>
+      Made with way too much love ❤️ <span>for Lavanya</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
